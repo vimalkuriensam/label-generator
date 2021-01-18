@@ -1,0 +1,30 @@
+.wizard {
+  position: relative;
+  &__stepper {
+    position: absolute;
+    display: inline-block;
+    margin-top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__wrapper {
+    padding: 10rem 10rem;
+  }
+
+  &--key {
+    padding: 1rem;
+    background: #ccc;
+    font-size: 1.8rem;
+    color: white;
+    font-weight: bold;
+  }
+
+  &--values {
+    padding: 1rem;
+    background: #fff;
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+  }
+}

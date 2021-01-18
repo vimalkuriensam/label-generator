@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render wizard component correctly 1`] = `
+<div
+  className="wizard"
+>
+  <div
+    className="wizard__stepper"
+  >
+    <Stepper
+      currentStep={1}
+      steps={
+        Array [
+          "Sender Address",
+          "Receiver Address",
+          "Weight",
+          "Option",
+          "Confirm",
+        ]
+      }
+    />
+  </div>
+  <div
+    className="wizard__wrapper"
+  >
+    <withRouter(ShippingLabelMaker)
+      onAction={[Function]}
+      onComplete={[Function]}
+      stepCount={1}
+    />
+  </div>
+</div>
+`;

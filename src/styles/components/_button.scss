@@ -1,0 +1,133 @@
+.btn {
+  border: none;
+  &--main {
+    padding: 0.5rem;
+    background-color: $color-secondary;
+    width: 8rem;
+  }
+
+  &--secondary {
+    background-color: $color-secondary;
+    height: 4rem;
+    padding: 1.2rem 2rem;
+    border: 1px solid #707070;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Times New Roman";
+    font-size: $default-font-size;
+    line-height: 1;
+    transition: all 0.1s;
+    &:hover {
+      box-shadow: 0 0.5rem 2rem rgba($color-black, 0.2);
+    }
+    &:active {
+      box-shadow: 0 0.1rem 1rem rgba($color-black, 0.4);
+    }
+  }
+
+  &--tertiary-1 {
+    background-color: $color-grey-dark;
+    color: $color-grey-light;
+    height: 4rem;
+    padding: 1.2rem 2rem;
+    border: 1px solid #707070;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Times New Roman";
+    font-size: $default-font-size;
+    line-height: 1;
+    transition: all 0.1s;
+    &:hover {
+      box-shadow: 0 0.5rem 2rem rgba($color-black, 0.2);
+    }
+    &:active {
+      box-shadow: 0 0.1rem 1rem rgba($color-black, 0.4);
+    }
+  }
+
+  &--tertiary {
+    padding: 0.5rem 2rem;
+    background: $color-grey-light;
+    border: 1px solid #707070;
+    color: #707070;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-family: "Times New Roman";
+    font-size: 1.2rem;
+    &:hover {
+      color: $color-primary;
+      text-decoration: underline;
+    }
+  }
+
+  &--signin {
+    display: inline-block;
+    background-color: $color-secondary;
+    width: 100%;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
+
+.btn-main {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    color: $color-black;
+    background: $color-secondary;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  &--link {
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 10rem;
+    width: 15rem;
+    position: absolute;
+    top: 8rem;
+    right: 10rem;
+    font-size: 2.3rem;
+    cursor: pointer;
+    outline: none;
+  }
+  &--link-2 {
+    padding: 0.5rem 0;
+    border: none;
+    border-radius: 10rem;
+    width: 15rem;
+    font-size: 2.3rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  &--cart {
+    font-size: 1.4rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  &--wishlist {
+    font-size: 1.2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 20rem;
+    border: 1px solid $color-grey-light;
+    font-weight: 700;
+  }
+}
+
+.btn-ref {
+  &,
+  &:link,
+  &:visited {
+    color: $color-secondary;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+}

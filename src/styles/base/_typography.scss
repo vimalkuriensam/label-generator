@@ -1,0 +1,110 @@
+body {
+  // font-family: "Lato", sans-serif;
+  font-family: "Times New Roman";
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+  color: $color-grey-dark;
+  // padding: 3rem;
+}
+
+.heading-primary {
+  color: $color-primary;
+  font-size: 5rem;
+  font-style: italic;
+  &--main {
+    font-size: 8rem;
+  }
+}
+
+.heading-primary-georgia {
+  font-family: Georgia;
+  font-size: 5rem;
+  font-weight: 700;
+  &--pricing {
+    color: #b53636;
+  }
+}
+
+.heading-secondary {
+  color: #ccc;
+  font-size: 5rem;
+  margin-top: -2rem;
+  font-weight: 500;
+}
+
+.heading-secondary-georgia {
+  font-family: Georgia;
+  font-size: 2.3rem;
+  font-weight: 500;
+  &--main {
+    color: $color-black;
+  }
+}
+
+.heading-tertiary {
+  font-size: 2.3rem;
+  color: #ccc;
+  padding-right: 15rem;
+  font-weight: 300;
+}
+
+.heading-tertiary-2 {
+  font-size: 3.3rem;
+  font-weight: 300;
+  color: $color-primary;
+}
+
+.heading-small {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  &__footer {
+    color: $color-white;
+  }
+}
+
+.paragraph-small {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  text-align: justify;
+  &--green {
+    color: $color-primary;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.6rem;
+  }
+  &--blue {
+    color: #3397d9;
+    font-weight: 700;
+  }
+}
+
+.mistral-font {
+  font-family: "mistral";
+  color: $color-white;
+  font-size: 3.3rem;
+}
+
+.georgia-small-font {
+  font-family: Georgia;
+  font-size: 1.2rem;
+  font-weight: 700;
+  &--black {
+    color: $color-black;
+  }
+
+  &--green {
+    color: $color-primary;
+  }
+}
+
+.georgia-paragraph {
+  font-family: Georgia;
+  text-align: justify;
+  font-size: $default-font-size;
+  line-height: 1.4;
+}
