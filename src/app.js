@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import AppRoutes from "./routes/appRoutes";
+import AppRoutes from "./routes/AppRoutes";
 
 import "./styles/main.scss";
 
