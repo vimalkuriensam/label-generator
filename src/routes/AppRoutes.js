@@ -8,7 +8,7 @@ import {
 
 import Header from "../core/components/header/Header";
 import Login from "../core/components/login/Login";
-import Wizard from "../core/components/wizard/wizard";
+import Wizard from "../core/components/wizard/Wizard";
 import ScrollTop from "../utils/scroll-top/ScrollTop";
 import PrivateRoute from "./PrivateRoute";
 
